@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <style>
         :root {
-            --primary: #FF4500; /* Orange-Red */
+            --primary: #1a6a7e; /* Orange-Red */
             --primary-dark: #541675; /* Purple */
             --secondary: #333;
             --light: #f8f9fa;
@@ -517,10 +517,15 @@
         .service-card {
             background: white;
             border-radius: 10px;
+            
             overflow: hidden;
             box-shadow: var(--box-shadow);
             transition: var(--transition);
-            text-align: center;
+            text-align: left;
+            border-left: 5px solid #541675;
+            border-right: 1px solid #541675;
+            border-top: 1px solid #541675;
+            border-bottom: 1px solid #541675;
             padding: 30px;
         }
 
@@ -531,6 +536,7 @@
 
         .service-icon {
             font-size: 2.5rem;
+            justify-self: left;
             color: var(--primary);
             margin-bottom: 20px;
         }
@@ -627,7 +633,7 @@
             padding: 30px;
             border-radius: 10px;
             box-shadow: var(--box-shadow);
-            text-align: center;
+            
             margin: 20px;
         }
 
@@ -691,7 +697,10 @@
             width: 100%;
             padding: 12px 15px;
             margin-bottom: 15px;
-            border: 1px solid var(--light-gray);
+            border-left: 2px solid #541675;
+border-right: 1px solid #541675;
+border-top: 1px solid #541675;
+border-bottom: 1px solid #541675;
             border-radius: 5px;
             font-family: "Exo 2", sans-serif;
         }
@@ -1457,4 +1466,4 @@
         });
     </script>
 </body>
-</html>
+    </html>
